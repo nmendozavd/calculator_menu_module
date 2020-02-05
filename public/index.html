@@ -4,7 +4,13 @@
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="app">Will populate here with Hello World if all good</div>
+    <div id="calculator">Will populate here with Hello World if all good</div>
     <script type="text/javascript" src="bundle.js"></script>
+    <script>
+       ReactDOM.render(
+          React.createElement(App),
+          document.getElementById('calculator')
+        );
+    </script>
   </body>
 </html>
