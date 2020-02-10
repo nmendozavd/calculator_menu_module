@@ -10,8 +10,8 @@
   "scripts": {
     "rebuildDatabase": "mysql -u root < server/db/schema.sql",
     "seedDatabase": "npx knex seed:run --env development",
-    "startServer": "nodemon server/index.js",
-    "transpileJSX": "npx webpack --d --watch",
+    "server": "nodemon server/index.js",
+    "webpack": "npx webpack --d --watch",
     "test": "jest --config ./jest.config.json"
   },
   "dependencies": {
